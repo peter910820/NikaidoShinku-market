@@ -1,11 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>寫blog也好難喔</h1>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block body %}
+<div><h1>three blocks</h1></div>
+    <div class="row">
+        <div class="col s9 div-article">
+            <div class="col s4 div-article"></div>
+            <div class="col s8 div-article"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s9 div-article"><h2>contain</h2></div>
+    </div>
+    <div class="row">
+        <div class="col s9 div-article"><h2>contain</h2></div>
+    </div>
+    <div class="row">
+        <div class="col s9 div-article"><h2>contain</h2></div>
+    </div>
+    <div class="row">
+        <div class="col s9 div-article"><h2>contain</h2></div>
+    </div>
+</div>
+{% endblock %}

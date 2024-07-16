@@ -6,6 +6,8 @@ def create_app():
     app.static_folder = 'static'
     app.static_url_path = '/static'
 
+    app.config['TEMPLATES_AUTO_RELOAD'] = True
+
     with app.app_context():
         from . import routes
 
