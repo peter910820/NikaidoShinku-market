@@ -1,5 +1,5 @@
 from flask.cli import FlaskGroup
-from seaotterms_blog import create_app
+from NikaidoShinku_market import create_app
 
 def create_app_cli():
     return create_app()

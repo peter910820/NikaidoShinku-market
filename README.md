@@ -1,2 +1,2 @@
-# seaotterms-blog
-perosnal blog build with flask
+# NikaidoShinku-market
+perosnal online market build with flask
